@@ -8,10 +8,13 @@ a {
 }
 
 .hidden {
-  visibility: hidden;
-  font-size: 0;
+  display: none;
 }
 
 address {
   font-style: normal;
 }
+
+/* * {
+  outline: 1px solid tomato;
+} */
