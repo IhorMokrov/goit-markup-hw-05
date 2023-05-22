@@ -9,15 +9,10 @@
 }
 
 .container {
-  width: 1170px;
-
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.section .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  width: 1170px;
+  outline: 1px solid tomato;
 }
 
 /* Logo */
@@ -133,6 +128,15 @@
 
 /* Section */
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section:nth-child(2n) {
+  background-color: var(--button-grey);
+}
+
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -175,7 +179,6 @@
 }
 
 .features.list {
-  margin-top: 94px;
   margin-bottom: 94px;
 }
 
