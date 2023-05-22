@@ -11,7 +11,11 @@
 w: 1170 + 30 = 1200px
 gutter: 30px; → left-gut: 15 and right-gut: 15px;
 */
-
+.wrapper {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
