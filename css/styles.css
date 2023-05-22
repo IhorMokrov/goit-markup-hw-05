@@ -5,17 +5,15 @@
   --logo-black: #000000;
   --logo-white: #ffffff;
   --inactive-black: #212121;
+  --button-grey: #f5f4fa;
 }
 
-/* 
-w: 1170 + 30 = 1200px
-gutter: 30px; → left-gut: 15 and right-gut: 15px;
-*/
-.wrapper {
-  width: 1200px;
+.container {
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
 }
+
 /* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -61,37 +59,59 @@ gutter: 30px; → left-gut: 15 and right-gut: 15px;
 }
 
 /* Hero */
-.hero-container {
+.hero {
+  text-align: center;
   background-color: #2f303a;
 }
 .hero-title {
-  text-transform: uppercase;
-  color: var(--focus-text-color);
-  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 30px;
+
   font-size: 44px;
+  font-weight: 900;
+  color: var(--focus-text-color);
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-align: center;
 }
 
 .button {
-  color: var(--inactive-black);
-  background-color: #f5f4fa;
-  border: none;
   font-family: inherit;
+  color: var(--inactive-black);
   cursor: pointer;
+
+  background-color: var(--button-grey);
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button {
-  font-weight: 700;
+  padding: 10px 32px;
+
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  color: var(--focus-text-color);
+
+  background-color: var(--focus-color);
+  border: none;
+  border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--inactive-black);
+  background-color: var(--button-grey);
 }
 
 .portfolio-button {
-  font-weight: 500;
+  padding: 6px 22px;
+  margin-right: 8px;
+
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.63;
   letter-spacing: 0.03em;
 }
