@@ -10,8 +10,14 @@
 
 .container {
   width: 1170px;
+
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Logo */
@@ -60,6 +66,8 @@
 
 /* Hero */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: #2f303a;
 }
@@ -124,19 +132,18 @@
 }
 
 /* Section */
-.our-team-section {
-  background-color: #f5f4fa;
-}
 
 .section-title {
-  color: var(--inactive-black);
-  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 50px;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.17;
+  color: var(--inactive-black);
   text-align: center;
 }
 
-.our-team-section .title {
+.our-team-section-title {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -159,6 +166,7 @@
 
 /* Features */
 .features .title {
+  margin-bottom: 10px;
   text-transform: uppercase;
   color: var(--inactive-black);
   font-weight: 700;
@@ -166,7 +174,13 @@
   line-height: 1.14;
 }
 
+.features.list {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
 .features-text {
+  margin: 0;
   font-size: 14px;
   line-height: 1.71;
 }
