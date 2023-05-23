@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+li {
+  list-style: none;
+  background-color: aqua;
+}
+
+.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid grey;
+}
+
+.item {
+  width: calc((100% - 45px) / 4);
+  outline: 1px solid tomato;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item:not(:nth-child(4n)) {
+  margin-right: 15px;
+}
