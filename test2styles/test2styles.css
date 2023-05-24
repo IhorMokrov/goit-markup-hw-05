@@ -88,11 +88,3 @@ li.item {
   border: 1px solid grey;
   border-radius: 450px;
 }
-
-/* .testing-list .item:not(:nth-child(3n)) {
-  margin-right: 15px;
-} */
-
-/* 
-600 - 15 - 15 = 570
-*/

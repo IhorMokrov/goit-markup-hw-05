@@ -50,10 +50,8 @@ address {
 
 .space {
   height: 200px;
-  /* outline: 0.1px solid tomato; */
 }
 
-/*   <a href="" class="btn"><span class="in-box-el"></span> x </a>  */
 .btn {
   /* positioning */
   margin-left: 100px;
