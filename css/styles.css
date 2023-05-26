@@ -103,8 +103,28 @@
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: #2f303a;
 }
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.5),
+      rgba(47, 48, 58, 0.5)
+    ),
+    url(../images/hero-background.jpg);
+  background-color: #c4c4c4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  outline: 1px solid tomato;
+}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
