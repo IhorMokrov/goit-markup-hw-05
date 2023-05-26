@@ -265,17 +265,32 @@
   content: "";
   width: 270px;
   height: 120px;
+  margin-bottom: 30px;
   border-radius: 4px;
-  background-image: url(../images/antenna.svg);
   background-color: var(--button-grey);
   background-repeat: no-repeat;
   background-position: center;
-  outline: 1px solid tomato;
+}
+
+.features .antenna::before {
+  background-image: url(../images/antenna.svg);
+}
+
+.features .clock::before {
+  background-image: url(../images/clock.svg);
+}
+
+.features .diagram::before {
+  background-image: url(../images/diagram.svg);
+}
+
+.features .astronaut::before {
+  background-image: url(../images/astronaut.svg);
 }
 
 /* Our team */
-.container.our-team {
-  padding-top: 94px;
+.bgsection {
+  background-color: #f5f4fa;
 }
 
 .our-team-section-title {
@@ -306,6 +321,52 @@
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
+}
+
+/* Regular customers */
+
+.customers {
+  display: flex;
+}
+
+.customers .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.customers .item {
+  display: block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.ya-co {
+  background-image: url(../images/customers/ya-n-co.svg);
+}
+
+.company-tagline-here {
+  background-image: url(../images/customers/company-tagline-here.svg);
+}
+
+.company {
+  background-image: url(../images/customers/company.svg);
+}
+
+.foster-peters {
+  background-image: url(../images/customers/foster-peters.svg);
+}
+
+.brand {
+  background-image: url(../images/customers/brand.svg);
+}
+
+.company-tagline {
+  background-image: url(../images/customers/company-tag-line-6.svg);
 }
 
 /* Footer */
