@@ -333,19 +333,20 @@
   margin-right: 30px;
 }
 
-.customers .item {
+.customers .item::before {
+  content: "";
   display: block;
   width: 170px;
   height: 90px;
+
   border: 1px solid #afb1b8;
   border-radius: 4px;
-
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
 }
 
-.ya-co {
+.ya-co::before {
   background-image: url(../images/customers/ya-n-co.svg);
 }
 
