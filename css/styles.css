@@ -308,8 +308,13 @@
 }
 
 .our-team-list .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   line-height: 0;
-  /* outline: 1px solid tomato; */
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .our-team-list .image {
@@ -318,9 +323,46 @@
 
 .our-team-item-text {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
+}
+
+.our-team-list .social-list {
+  display: inline-flex;
+  margin-bottom: 30px;
+}
+
+.our-team-list .link::before {
+  content: "";
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: inline-flex;
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: 1px solid palevioletred; */
+}
+.our-team-list .link::before:not(:last-child) {
+  margin-right: 10px;
+}
+
+.our-team-list .instagram::before {
+  background-image: url(../images/social/instagram.svg);
+}
+
+.our-team-list .twitter::before {
+  background-image: url(../images/social/twitter.svg);
+}
+
+.our-team-list .facebook::before {
+  background-image: url(../images/social/facebook.svg);
+}
+
+.our-team-list .linkedin::before {
+  background-image: url(../images/social/linkedin.svg);
 }
 
 /* Regular customers */
@@ -335,7 +377,7 @@
 
 .customers .item::before {
   content: "";
-  display: block;
+  display: inline-flex;
   width: 170px;
   height: 90px;
 
@@ -350,23 +392,23 @@
   background-image: url(../images/customers/ya-n-co.svg);
 }
 
-.company-tagline-here {
+.company-tagline-here::before {
   background-image: url(../images/customers/company-tagline-here.svg);
 }
 
-.company {
+.company::before {
   background-image: url(../images/customers/company.svg);
 }
 
-.foster-peters {
+.foster-peters::before {
   background-image: url(../images/customers/foster-peters.svg);
 }
 
-.brand {
+.brand::before {
   background-image: url(../images/customers/brand.svg);
 }
 
-.company-tagline {
+.company-tagline::before {
   background-image: url(../images/customers/company-tag-line-6.svg);
 }
 
