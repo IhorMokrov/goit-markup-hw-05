@@ -333,6 +333,10 @@
   margin-bottom: 30px;
 }
 
+.social-list .social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .our-team-list .link::before {
   content: "";
   width: 44px;
