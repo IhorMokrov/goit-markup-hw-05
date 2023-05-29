@@ -499,6 +499,11 @@
   border-color: red;
 }
 
+.portfolio .paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Social */
 
 .social-container {
