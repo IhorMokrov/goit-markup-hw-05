@@ -458,8 +458,6 @@
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
-  /* border: 1px solid #eeeeee; */
-  /* border: 1px solid red; */
 }
 
 .portfolio .item:nth-child(3n) {
@@ -492,6 +490,13 @@
 
 .portfolio-buttons-list .item:not(:last-child) {
   margin-right: 8px;
+}
+
+.portfolio .item-border-container {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  /* border-color: #eeeeee; */
+  border-color: red;
 }
 
 /* Social */
