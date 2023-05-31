@@ -495,8 +495,12 @@
 .portfolio .item-border-container {
   border-width: 0px 1px 1px 1px;
   border-style: solid;
-  /* border-color: #eeeeee; */
-  border-color: red;
+  border-color: #eeeeee;
+}
+
+.portfolio .link {
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio .paragraph {
