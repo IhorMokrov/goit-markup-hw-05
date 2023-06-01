@@ -86,26 +86,6 @@
   align-items: center;
 }
 
-.header-contacts .item::before {
-  margin-right: 10px;
-  content: "";
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.header-contacts .envelope::before {
-  width: 16px;
-  height: 12px;
-  background-image: url(../images/envelope.svg);
-}
-
-.header-contacts .phone::before {
-  width: 10px;
-  height: 16px;
-  background-image: url(../images/phone.svg);
-}
-
 .header-contacts .link {
   display: flex;
   align-items: center;
@@ -363,12 +343,12 @@
 
 .social-list .twitter::before {
   background-image: url(../images/social/twitter.svg);
-  background-size: 20px;
+  background-size: 10px;
 }
 
 .social-list .facebook::before {
   background-image: url(../images/social/facebook.svg);
-  background-size: 10px;
+  background-size: 20px auto;
 }
 
 .social-list .linkedin::before {
