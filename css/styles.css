@@ -366,43 +366,6 @@
   margin-right: 30px;
 }
 
-.customers .item::before {
-  content: "";
-  display: inline-flex;
-  width: 170px;
-  height: 90px;
-
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-}
-
-.ya-co::before {
-  background-image: url(../images/customers/ya-n-co.svg);
-}
-
-.company-tagline-here::before {
-  background-image: url(../images/customers/company-tagline-here.svg);
-}
-
-.company::before {
-  background-image: url(../images/customers/company.svg);
-}
-
-.foster-peters::before {
-  background-image: url(../images/customers/foster-peters.svg);
-}
-
-.brand::before {
-  background-image: url(../images/customers/brand.svg);
-}
-
-.company-tagline::before {
-  background-image: url(../images/customers/company-tag-line-6.svg);
-}
-
 /* Footer */
 .address-container {
   display: flex;
