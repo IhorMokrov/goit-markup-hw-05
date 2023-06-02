@@ -95,11 +95,20 @@
   letter-spacing: 0.02em;
 }
 
+.header-contacts .link {
+  fill: var(--main-text-color);
+}
+
 .header-contacts .link:hover,
 .header-contacts .link:focus,
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
   color: var(--focus-color);
+  fill: var(--focus-color);
+}
+
+.header-contacts .icon {
+  margin-right: 10px;
 }
 
 /* Hero */
@@ -220,6 +229,14 @@
   justify-content: space-between;
 }
 
+.features-image-container {
+  display: block;
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: var(--button-grey);
+  border-radius: 4px;
+}
+
 .features .title {
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -238,38 +255,6 @@
   width: 270px;
   font-size: 14px;
   line-height: 1.71;
-}
-
-.features .item::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  background-color: var(--button-grey);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.features .antenna::before {
-  background-image: url(../images/antenna.svg);
-  background-size: 65px;
-}
-
-.features .clock::before {
-  background-image: url(../images/clock.svg);
-  background-size: 67px;
-}
-
-.features .diagram::before {
-  background-image: url(../images/diagram.svg);
-  background-size: 70px;
-}
-
-.features .astronaut::before {
-  background-image: url(../images/astronaut.svg);
-  background-size: 70px;
 }
 
 /* Our team */
