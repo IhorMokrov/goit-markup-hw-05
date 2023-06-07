@@ -230,7 +230,9 @@
 }
 
 .features-image-container {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
   height: 120px;
   background-color: var(--button-grey);
@@ -239,6 +241,14 @@
 
 .features-image {
   fill: var(--inactive-black);
+  display: flex;
+  /* align-items: center; */
+  outline: 1px solid tomato;
+  vertical-align: middle;
+}
+
+.features-image .icon-diagram {
+  /* outline: 1px solid blue; */
 }
 
 .features .title {
