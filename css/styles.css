@@ -306,45 +306,17 @@
 .social-list {
   display: flex;
   margin-bottom: 30px;
+  outline: 1px solid tomato;
 }
 
 .social-list .social-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-list .link::before {
-  display: flex;
-  content: "";
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  outline: 1px solid palevioletred;
-}
-.social-list .link::before:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-list .instagram::before {
-  background-image: url(../images/social/instagram.svg);
-  background-size: 20px;
-}
-
-.social-list .twitter::before {
-  background-image: url(../images/social/twitter.svg);
-  background-size: 10px;
-}
-
-.social-list .facebook::before {
-  background-image: url(../images/social/facebook.svg);
-  background-size: 20px auto;
-}
-
-.social-list .linkedin::before {
-  background-image: url(../images/social/linkedin.svg);
-  background-size: 20px;
+.icon-social {
+  outline: 1px solid tomato;
+  background-color: #2196f3;
+  border-radius: 50% 50%;
 }
 
 /* Regular customers */
