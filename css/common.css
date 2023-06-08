@@ -37,7 +37,8 @@ a {
 }
 
 .hidden {
-  display: none;
+  opacity: 0;
+  position: absolute;
 }
 
 .space {
