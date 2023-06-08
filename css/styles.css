@@ -2,10 +2,12 @@
   --main-text-color: #757575;
   --focus-color: #2196f3;
   --focus-text-color: #ffffff;
+  --primary-white: #ffffff;
   --logo-black: #000000;
   --logo-white: #ffffff;
   --inactive-black: #212121;
   --button-grey: #f5f4fa;
+  --icon-inactive: #afb1b8;
 }
 
 .container {
@@ -322,7 +324,7 @@
 }
 
 .social-list .link {
-  fill: #afb1b8;
+  fill: var(--icon-inactive);
 }
 
 .social-list .link:hover,
@@ -339,11 +341,19 @@
 
 .customers .link {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  background-color: yellow;
+  fill: var(--icon-inactive);
+}
+
+.customers .link:hover,
+.customers .link:focus {
+  fill: var(--focus-color);
+  border-color: var(--focus-color);
 }
 
 .customers .item:not(:last-child) {
@@ -464,6 +474,7 @@
   margin-top: 20px;
 }
 
-.social-container .link:before {
+.social-footer .link {
   background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--primary-white);
 }
