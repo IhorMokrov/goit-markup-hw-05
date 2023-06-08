@@ -306,23 +306,44 @@
 .social-list {
   display: flex;
   margin-bottom: 30px;
-  outline: 1px solid tomato;
 }
 
 .social-list .social-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.icon-social {
-  outline: 1px solid tomato;
-  background-color: #2196f3;
+.social-list .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
   border-radius: 50% 50%;
+}
+
+.social-list .link {
+  fill: #afb1b8;
+}
+
+.social-list .link:hover,
+.social-list .link:focus {
+  background-color: var(--focus-color);
+  fill: var(--focus-text-color);
 }
 
 /* Regular customers */
 
 .customers {
   display: flex;
+}
+
+.customers .link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-color: yellow;
 }
 
 .customers .item:not(:last-child) {
