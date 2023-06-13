@@ -257,20 +257,20 @@
   position: absolute;
   top: 0;
   right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
   margin-top: 8px;
   margin-right: 8px;
 
-  display: block;
-  width: 30px;
-  height: 30px;
-
+  fill: #000000;
   background-color: var(--primary-white);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50% 50%;
-}
-
-.button-close {
-  fill: #000000;
 }
 
 .button-close:hover,
@@ -340,6 +340,12 @@
 }
 
 /* Features */
+.is-hidden.section-title {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
 .features {
   display: flex;
   justify-content: space-between;
@@ -505,6 +511,12 @@
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.is-hidden.portfolio-title {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
 }
 
 .portfolio {
