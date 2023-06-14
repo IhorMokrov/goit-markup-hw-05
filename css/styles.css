@@ -605,7 +605,6 @@
 
 .portfolio .link {
   display: flex;
-  height: 100%;
   flex-direction: column;
 }
 
@@ -615,8 +614,13 @@
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.text-overlay img {
+  vertical-align: bottom;
+}
+
 .text-overlay {
   position: relative;
+  overflow: hidden;
 }
 
 .text-overlay .paragraph {
@@ -637,7 +641,7 @@
 
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 1;
-  overflow: hidden;
+
   transition: transform 250ms var(--cubic-animation);
 }
 
